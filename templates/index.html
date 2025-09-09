@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for i in food %}
+        {{i}} 
+        {% if loop.index % 10 == 0 %}
+            <br/>
+        {% endif %}
+    {% endfor %}
+    <br/>
+    <a href = "/lottery">點我抽午餐吃什麼：） </a>
+    <br/>
+    <br/>
+    {{ans}} 
+</body>
+</html>
