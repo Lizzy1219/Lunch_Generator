@@ -14,7 +14,7 @@
 ## 安裝方式
 1. 下載專案到本地
     ```bash
-    git clone https://github.com/你的帳號/Lunch_Generator.git`
+    git clone https://github.com/Lizzy1219/Lunch_Generator.git`
     cd Lunch_Generator
     ```
 2. 手動安裝套件
